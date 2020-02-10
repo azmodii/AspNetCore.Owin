@@ -1,14 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net461;</TargetFrameworks>
-    <RootNamespace>Microsoft.AspNetCore.DataProtection</RootNamespace>
-    <Authors>daixinkai</Authors>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Description>support System.Web.MachineKey</Description>
-    <PackageProjectUrl>https://github.com/daixinkai/AspNetCore.Owin/tree/master/src/DataProtection</PackageProjectUrl>
+    <RootNamespace>Microsoft.AspNetCore.DataProtection</RootNamespace>
+    <Version>1.1.0</Version>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.DataProtection.Abstractions" Version="2.1.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.0" />

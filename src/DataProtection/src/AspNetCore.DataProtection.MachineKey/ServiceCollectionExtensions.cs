@@ -24,7 +24,7 @@ namespace Microsoft.Extensions.DependencyInjection
                 setupAction.Invoke(options);
             }
             MachineKeyDataProtectionProvider machineKeyDataProtectionProvider = new MachineKeyDataProtectionProvider(options);
-            services.TryAddSingleton<IDataProtectionProvider>(machineKeyDataProtectionProvider);
+            services.AddSingleton<IDataProtectionProvider>(machineKeyDataProtectionProvider);
             return new MachineKeyDataProtectionBuilder
             {
                 Options = options

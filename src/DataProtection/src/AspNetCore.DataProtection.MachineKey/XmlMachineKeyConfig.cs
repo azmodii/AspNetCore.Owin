@@ -6,7 +6,7 @@ using System.Xml;
 
 namespace Microsoft.AspNetCore.DataProtection
 {
-    class XmlMachineKeyConfig : MachineKeyConfig
+    public class XmlMachineKeyConfig : MachineKeyConfig
     {
 
         public XmlMachineKeyConfig(FileInfo fileInfo)

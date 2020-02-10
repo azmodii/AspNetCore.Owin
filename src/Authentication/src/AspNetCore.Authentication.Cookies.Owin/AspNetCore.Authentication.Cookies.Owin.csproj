@@ -3,11 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>daixinkai</Authors>
-    <Company />
-    <PackageProjectUrl>https://github.com/daixinkai/AspNetCore.Owin/tree/master/src/Authentication</PackageProjectUrl>
-    <Description>support Microsoft.Owin.Security.Cookies</Description>
     <RootNamespace>Microsoft.AspNetCore.Authentication.Cookies</RootNamespace>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">

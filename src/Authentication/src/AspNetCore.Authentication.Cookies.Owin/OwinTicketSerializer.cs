@@ -8,7 +8,7 @@ using System.Text;
 
 namespace Microsoft.AspNetCore.Authentication
 {
-    class OwinTicketSerializer : IDataSerializer<AuthenticationTicket>
+    public class OwinTicketSerializer : IDataSerializer<AuthenticationTicket>
     {
 
         public OwinTicketSerializer(int formatVersion)
